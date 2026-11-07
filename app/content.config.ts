@@ -76,7 +76,7 @@ export const content = {
     paragraphs: [
       "Selamat ulang tahun yang ke-21 yaa, sayangkuuuu! 🤍 Di umur yang baru ini, aku cuma mau doain semoga kamu selalu diberi kesehatan, selalu happy terus setiap hari, dan sukses pastinya. Semoga dilancarkan proses skripsinya sampai tuntas nanti, dimudahkan segala urusan dan langkahmu, serta selalu dikelilingi oleh orang-orang yang tulus dan baik sama kamu.",
       "Aku bener-bener bangga bangeeet sama kamu. Kamu itu keren banget, sayanggg! Terima kasih yaa sudah selalu bertanggung jawab atas setiap tugas-tugasmu, selalu berusaha memberikan yang terbaik, dan berjuang sejauh ini dengan hatimu yang begitu baik.",
-      "Pesan aku, tolong selalu jaga kesehatan ya sayangg. Aku tahu terkadang kamu suka merasa insecure atau ngerasa belum sesempurna itu, tapi aku mau kamu selalu ingat satu hal: di mataku, kamu itu luar biasa hebattt. Kamu jauh lebih kuat, lebih hebat, dan lebih berharga dari apa yang pernah kamu pikirkan tentang dirimu sendiri. Jangan pernah ragu, karena ada banyak banget orang yang sayang sama kamu—dan aku akan selalu ada di sini buat kamu.",
+      "Pesan aku, tolong selalu jaga kesehatan ya sayangg. Aku tahu terkadang kamu suka merasa insecure atau ngerasa belum sesempurna itu, tapi aku mau kamu selalu ingat satu hal: di mataku, kamu itu luar biasa hebattt. Kamu jauh lebih kuat, lebih hebat, dan lebih berharga dari apa yang pernah kamu pikirkan tentang dirimu sendiri. Jangan pernah ragu, karena ada banyak banget orang yang sayang sama kamu dan aku akan selalu ada di sini buat kamu.",
       "Sama seperti yang pernah kamu bilang, bertemu kamu adalah salah satu hal terbaik yang pernah terjadi di dalam hidupku. Aku mau kita bisa terus sama-sama, saling menemani, saling menguatkan, dan bertumbuh bareng melewati setiap bab cerita ke depan.",
       "Sekali lagi, happy birthday yaa sayangggku, Joice Omasi Angelita Harefa. 🤍 Semoga hari ini penuh dengan senyuman dan tawa bahagiamu.",
     ],
@@ -194,7 +194,7 @@ export const content = {
   closingScreen: {
     firstTitle: "Happy Birthday",
     finalTitle: "With All My Love",
-    messageLine1: "Terima kasih sudah menjadi bagian terindah dalam hidupku, Joice.",
+    messageLine1: "Terima kasih sudah hadir dan menjadi bagian terindah dalam hidupku, Omasi.",
     messageLine2:
       "I love you so much, and remember... I love you more. 🫶🏻✨",
     signOff: "Forever and always yours, 🤍",
