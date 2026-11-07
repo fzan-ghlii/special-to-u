@@ -1,0 +1,24 @@
+# 📸 PANDUAN PENGELOLAAN FOTO GALERI
+
+Silakan taruh file foto Anda di dalam folder ini:
+`app/public/photos/`
+
+## Nama File & Format:
+1. Nama file default yang terdaftar di `content.config.ts`:
+   - `foto1.jpg`
+   - `foto2.jpg`
+   - `foto3.jpg`
+   - `foto4.jpg`
+2. Format gambar yang didukung: `.jpg`, `.jpeg`, `.png`, `.webp`.
+3. Rekomendasi rasio gambar: 1:1 (persegi) atau 4:5 (portrait) agar tampil rapi di bingkai polaroid.
+4. Anda bisa menambah foto baru sebanyak yang diinginkan. Cukup daftarkan path dan ceritanya di `content.config.ts` pada bagian `gallery`.
+
+Contoh di `content.config.ts`:
+```ts
+gallery: [
+  {
+    src: "/photos/foto_pantai.jpg",
+    story: "Liburan seru ke pantai sore itu.",
+  },
+]
+```

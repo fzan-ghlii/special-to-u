@@ -1,0 +1,21 @@
+# 🎬 PANDUAN PENGELOLAAN VIDEO SPESIAL
+
+Silakan taruh file video kenangan Anda di dalam folder ini:
+📂 `app/public/videos/`
+
+## Nama File & Format yang Direkomendasikan:
+1. **Nama file default:** `moment.mp4`
+   (Lokasi lengkap: `app/public/videos/moment.mp4`)
+2. **Format yang didukung:** `.mp4` (H.264 / AAC) atau `.webm`.
+3. **Tips Ukuran Video:**
+   - Rekomendasi resolusi: 720p (1280x720) atau 1080p (1920x1080).
+   - Ukuran file: Di bawah 25 MB agar ringan saat dibuka di HP dan cepat dimuat saat online.
+4. Jika menggunakan nama file berbeda (misalnya `video_joice.mp4`), cukup ubah di `app/content.config.ts`:
+   ```ts
+   videoMoment: {
+     videoSrc: "/videos/video_joice.mp4",
+     posterSrc: "/photos/1.jpeg",
+   }
+   ```
+5. ✨ *Catatan:* Jika file video belum Anda masukkan, website akan otomatis memutar Slideshow Sinematik dari 10 foto Polaroid Anda.
+

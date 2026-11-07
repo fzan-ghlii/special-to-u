@@ -1,0 +1,27 @@
+# 🎵 PANDUAN PENGELOLAAN MUSIK LATAR
+
+Silakan taruh file lagu MP3 Anda di dalam folder ini:
+`app/public/music/`
+
+## Nama File & Format:
+1. Nama file default yang terdaftar di `content.config.ts`:
+   - `lagu1.mp3`
+   - `lagu2.mp3`
+   - `lagu3.mp3`
+2. Format file: `.mp3`.
+3. Rekomendasi bitrate: 128 kbps (ukuran < 5 MB per lagu) agar website memuat lagu dengan cepat dan ringan di HP pengunjung.
+4. Anda bisa mengganti nama file atau menambah lagu baru. Cukup daftarkan di `content.config.ts` pada bagian `music.tracks`.
+
+Contoh di `content.config.ts`:
+```ts
+music: {
+  autoPlayAfterEnter: true,
+  tracks: [
+    {
+      title: "Lagu Favorit Joice",
+      artist: "Penyanyi Favorit",
+      src: "/music/lagu_favorit.mp3",
+    },
+  ],
+}
+```
