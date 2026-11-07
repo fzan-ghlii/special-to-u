@@ -32,7 +32,7 @@ export const content = {
     // dan menjelajah seluruh alur kejutan sebelum tanggal 8 November 2026.
     // Hitung mundur akan TETAP TAMPIL meskipun `bypassForTesting: true`.
     // SEBELUM DIBERIKAN KE JOICE: Pastikan kembalikan ke `bypassForTesting: false`!
-    bypassForTesting: true,
+    bypassForTesting: false,
   },
 
   // ============================================================================
@@ -143,34 +143,34 @@ export const content = {
     items: [
       {
         id: 1,
-        title: "Momen 01",
+        title: "Jalan-jalan ke Brastagii",
         label: "Video 1",
-        src: "/videos/1.mp4",
-        poster: "/photos/1.jpeg",
+        src: "/videos/4.mp4",
+        poster: "/photos/7.jpeg",
         caption: "Sepotong momen manis yang selalu terekam indah untukmu 🤍",
       },
       {
         id: 2,
-        title: "Momen 02",
+        title: "RUPS Dateee",
         label: "Video 2",
-        src: "/videos/2.mp4",
-        poster: "/photos/2.jpeg",
+        src: "/videos/3.mp4",
+        poster: "/photos/4.jpeg",
         caption: "Setiap tawa dan senyuman yang selalu menghangatkan hati ✨",
       },
       {
         id: 3,
-        title: "Momen 03",
+        title: "Movie datee sekaligus photobooth",
         label: "Video 3",
-        src: "/videos/3.mp4",
-        poster: "/photos/3.jpeg",
+        src: "/videos/2.mp4",
+        poster: "/photos/2.jpeg",
         caption: "Cerita kecil kita yang selalu berarti lebih dari segalanya 🌸",
       },
       {
         id: 4,
-        title: "Momen 04",
+        title: "Night Ride sambil menikmati Citylight Medan",
         label: "Video 4",
-        src: "/videos/4.mp4",
-        poster: "/photos/4.jpeg",
+        src: "/videos/1.mp4",
+        poster: "/photos/5.jpeg",
         caption: "Terima kasih untuk setiap detik berharga yang kita lalui bersama 🤍",
       },
     ] as {
